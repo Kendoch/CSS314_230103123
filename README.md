@@ -1,4 +1,4 @@
-# CS482 Parallel Computing & Performance Optimization — macOS Python project
+# CSS314 Parallel Computing & Performance Optimization macOS Python project
 
 This laboratory measures cache-line stride effects, loop order on dense matrix multiplication, false sharing across shared counters, and strong/weak process scaling for a 5-point stencil. Findings must be drawn from **real experiments run on your own Mac**, especially because Apple Silicon's performance/efficiency cores and Python process-spawn overhead affect the results. The verification script checks array agreement, integer counts, and report consistency; it is **not** the instructor's original `verify_outputs.py` (which was not included in the provided document). The demonstration hash in the handout is not an expected digest for your own salted values. Karp–Flatt/Amdahl estimates based on multiprocessing may exceed theoretical bounds when parallel overhead causes slowdown. Roofline classification remains unconfirmed until machine-specific memory-bandwidth and peak-compute values are measured or sourced.
 
