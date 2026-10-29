@@ -1,0 +1,19 @@
+{
+  "kernel": "5-point Jacobi stencil, one update per cell",
+  "floating_point_operations_per_cell": 6,
+  "estimated_DRAM_bytes_per_cell": 48,
+  "arithmetic_intensity_flops_per_byte": 0.125,
+  "memory_traffic_model": "Conservative streaming 5 loads + 1 store; ignores cache reuse and write allocation",
+  "effective_serial_fraction_median_positive": 2.1199682954501395,
+  "amdahl_max_speedup": 0.4717051675471717,
+  "peak_memory_bandwidth_GB_s": null,
+  "peak_compute_GFLOP_s": null,
+  "roofline_bound": "undetermined from measurements alone",
+  "interpretation": "Low arithmetic intensity suggests memory sensitivity; cannot prove memory-bound without peak bandwidth and compute specifications. Pool data serialization also matters.",
+  "host_cache_bytes": {
+    "L1_data_bytes": 65536,
+    "L2_bytes": 4194304,
+    "L3_bytes": null,
+    "cache_line_bytes": 128
+  }
+}
