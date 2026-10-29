@@ -1,0 +1,12 @@
+{
+  "student_id": "30103123",
+  "N": 1088,
+  "M": 544,
+  "naive_median_seconds": 0.1426371659617871,
+  "interchanged_median_seconds": 0.0244881670223549,
+  "speedup": 5.824738365741121,
+  "max_absolute_error": 0.0,
+  "allclose_atol_1e-12": true,
+  "baseline_sha256_rounded_6": "0af80a7fee334b5687c4ad8bd51e961b652735fc5337dba3f216c423294cc61e",
+  "interchanged_sha256_rounded_6": "0af80a7fee334b5687c4ad8bd51e961b652735fc5337dba3f216c423294cc61e"
+}
